@@ -1,0 +1,26 @@
+{
+  "name": "expenseapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "amruth",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "concat-stream": "^2.0.0",
+    "cors": "^2.8.5",
+    "http-browserify": "^1.7.0",
+    "router": "^1.3.8",
+    "sequelize": "^6.31.1",
+    "word-wrap": "^1.2.3"
+  }
+}
